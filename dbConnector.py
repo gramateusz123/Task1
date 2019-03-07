@@ -15,5 +15,5 @@ for x in mycursor:
 for x in data_bases:
   print(x)
   
-if "mysql" in data_bases:
+if "library" in data_bases:
   print("This library already exist!")
