@@ -14,7 +14,11 @@ for x in mycursor:
   data_bases.append(x)
 
 if "('library',)" in data_bases:
-  print("Welcome to the Library database!" /n "What do you want to do?" /n "1. Show book list." /n "2. Add new book.")
+  print("Welcome to the Library database!")
+  print("What do you want to do?")
+  print("1. Show book list.")
+  print("2. Add new book.")
+
 
 else:
   mycursor.execute("CREATE DATABASE library")
