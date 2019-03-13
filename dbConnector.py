@@ -1,4 +1,5 @@
 import mysql.connector
+import time
 data_bases = []
 from func import text
 from func import end
@@ -51,6 +52,8 @@ while close == 0:
     end()
   
   elif decision1=="3":
+    print("See you next time!")
+    time.sleep(0.5)
     quit()
   
   else:
